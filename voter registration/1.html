@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Voter registration</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <!-- Nav bar goes here -->
+    <div class="nav">
+        <img src="./images/flag.png" class="flagimg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+        <h3 id="hindi">राष्ट्रीय मतदान सेवा<br> डेमो पोर्टल</h3>
+        <h3 id="eng">NATIONAL VOTERS' SERVICES<br>DEMO PORTAL </h3>
+
+        <img class="voterimg" src="./images/vote.png" alt="">
+    </div>
+    <!-- -->
+    <div class="container-fluid">
+        <div class="d-flex flex-row row1">
+            <button type="button" id="select" class="btn btn-primary">A+</button>
+            <button type="button" id="select" class="btn btn-primary">A-</button>
+        </div>
+        <div class="d-flex flex-row row2">
+            <p>Select Language:</p>
+            <form>
+                <select id="select">
+                        <option value="select">English</option>
+                        <option value="select">Hindi</option>
+                    </select>
+            </form>
+        </div>
+
+
+
+    </div>
+    <div class="note">
+        <h2>Note: Fields marked with asterisks ( * ) are mandatory</h2>
+    </div>
+    <br>
+    <!-- Main content goes here -->
+    <div class="main">
+        <div class=" first-con">
+            <p>Type 6 <br>[See rule 13(1) and 26]</p>
+        </div>
+        <div class=" sec-con">
+            <h5>Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</h5>
+        </div>
+        <pre> </pre>
+        <p style="display:block;">In service<br>Electoral Registration Officer,</p>
+        <!-- First block goes here -->
+        <div class="text-con1">
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row">
+                    <p>State
+                        <p1>*</p1>:</p>
+                    <form>
+                        <select id="select">
+                                <option value="select">Select</option>
+                            </select>
+                    </form>
+                </div>
+                <div class="d-flex flex-row">
+                    <p>District
+                        <p1>*</p1>:</p>
+                    <form>
+                        <select id="select">
+                                <option value="select">Select</option>
+                            </select>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <p>
+                    Legislative Assembly / Parlimentary<br> constituency
+                    <p style="color: red;">*</p>:</p>
+                <form>
+                    <select id="select">
+                                <option value="select">Select</option>
+                            </select>
+                </form>
+            </div>
+            <p>I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+            <form>
+                <input type="radio" id="1" name="form-1" value="1"><label for="1">First time voter</label><br>
+                <input type="radio" id="2" name="form-1" value="2"><label for="2">Due to transfer from other meeting areas.</label>
+            </form>
+            <pre> </pre>
+
+            <p>Below are specifications in support of my claim to be included in the electoral rolls.</p>
+        </div>
+        <!-- Second block goes here -->
+        <div class=" sec-con">
+            <h5>Mandatory specifications</h5>
+        </div>
+        <pre> </pre>
+        <div class="text-con1">
+            <div class="">
+                <h6>(A) Name
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+            <div class="">
+                <h6>(B)Surname (if any)
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+
+            <div class="">
+                <h6>(C)Name of the applicant's relative
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+            <div class="">
+                <h6>Nickname of the applicant's relative
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+            <div class="">
+                <h6>(D) Type of the relationship
+                    <p1>*</p1>
+                    <form>
+                        <select id="select">
+                            <option value="select">Select</option>
+                        </select>
+                    </form>
+                </h6>
+            </div>
+            <form>
+                <input type="radio" name="form-1" value="1"><label for="1">(E) Age [on January 1 of the current calender]<p1>*</p1> <input type="text" value="2019"></label><br>
+                <input type="radio" name="form-1" value="2"><label for="2">(F) Date of birth (in the form of day/ month/ year)  <input type="date">
+                </label>
+                <br>
+                <p>(If known)
+                    <p1>*</p1>
+                </p>
+            </form>
+            <div class="">
+                <form></form>
+                <h6>(G) Applicant's gender
+                    <p1>*</p1>
+
+                    <select id="select">
+                            <option value="select">Select</option>
+                        </select>
+
+                </h6>
+                </form>
+            </div>
+        </div>
+        <div class=" sec-con">
+            <h5>(H) Current address, whose applicant is nominally resident</h5>
+        </div>
+        <pre> </pre>
+        <div class="text-con1">
+            <div class="">
+                <h6>House no.
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+            <div class="">
+                <h6>Street/Area/Location
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+
+            <div class="">
+                <h6>City / Village
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+            <div class="">
+                <h6>Post Office
+                    <p1>*</p1>
+                    <input type="text" placeholder="(In English)">
+                    <input type="text" placeholder="(In Regional)">
+                    <i class="fa fa-keyboard-o"></i>
+                </h6>
+            </div>
+            <div class="">
+                <h6>Pin code
+                    <p1>*</p1>
+                    <input type="text"></h6>
+            </div>
+            <div class="">
+                <form>
+                    <h6>State / Union Teritory
+                        <p1>*</p1>
+
+                        <select id="select">
+                    <option value="select">Select</option>
+                </select>
+
+                    </h6>
+                </form>
+            </div>
+            <div class="">
+                <form>
+                    <h6>District
+                        <p1>*</p1>
+
+                        <select id="select">
+                    <option value="select">Select</option>
+                </select>
+
+                    </h6>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <pre> </pre>
+        <!-- Horizontal block with text box goes here -->
+        <div class="horizontal-block">
+            <h6>Family / Neighbour Epic No.
+
+                <input type="text">
+
+            </h6>
+        </div>
+        <pre> </pre>
+        <hr>
+        <!-- Third Block goes here -->
+        <div class="sec-con">
+            <h5>Optional specialties</h5>
+        </div>
+        <pre> </pre>
+        <div class="text-con1">
+            <div>
+                <h6>(T) Disability (if any)</h6><br>
+                <form class="checkbox">
+                    <input type="checkbox">Visual impairment<input type="checkbox"> Speech and hearing impairment<input type="checkbox"> Motion disabling<input type="checkbox">other <input type="text">
+                </form>
+            </div>
+            <div>
+                <form>
+                    (Th) Mail Id<input type="text"> <br> (D) mobile number (optional) +91<input type="tel">
+
+                </form>
+            </div>
+        </div>
+
+        <!-- Fourth block goes here-->
+        <div class="sec-con">
+            <h5>Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)<a href="#">List of supported documents</a></h5>
+        </div>
+        <pre> </pre>
+        <div class="text-con-1">
+            <form>
+                <h6>Your Photo
+                    <p1>*</p1>
+                </h6><input type="file"><br>
+                <h6>Age proof
+                    <p1>*</p1>
+                </h6>
+                <input type="file"> Document type
+                <p1>*</p1><select id="select">
+                        <option value="select">Select</option>
+                    </select>
+                <br>
+                <h6>Address proof
+                    <p1>*</p1>
+                </h6><input type="file">Document type
+                <p1>*</p1><select id="select">
+                    <option value="select">Select</option>
+                </select><br>
+            </form>
+        </div>
+
+        <!-- Fifth block goes here -->
+
+        <div class="sec-con">
+            <h5>Declaration</h5>
+        </div>
+        <pre> </pre>
+        <div class="text-con1">
+            <p>I declare I declare that according to my best knowledge and belief<br> I am a citizen of India and of my birth;</p>
+            <h6>City / Village: <input type="text"></h6>
+            <h6>Select state
+                <p1>*</p1>
+                <select id="select">
+                    <option value="select" >Select</option>
+                </select> Select District
+                <p1>*</p1><select id="select">
+                    <option value="select">Select</option>
+                </select></h6>
+            <h6>Date
+                <p1>*</p1><input type="date"></h6>
+            <p>(ii) I am a nominally resident in the address given in the above (date, month, year) above;<br> I have not applied to include my name in the electoral roll for any other constituency;</p>
+            <form>
+                <input type="radio" id="1" name="form-1" value="1"><label for="1">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</label><br> Or<br>
+                <input type="radio" id="2" name="form-1" value="2"><label for="2">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.</label>
+            </form>
+            <pre>
+
+</pre>
+            <hr>
+        </div>
+        <div class="text-con1">
+            <h6>Location
+                <p1>*</p1><input type="text"> Date<input type="date"></h6>
+            <p>I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</p>
+            <h6>Cpatcha<img src="./images/captcha.png"><input type="text"></h6>
+            <div class="btn ">
+                <div class="btn-primary">
+                    Repeat
+                </div>
+                <div class="btn-primary">
+                    Submit
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2019 Suven Consultants and Technology Pvt. Ltd.</p>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
