@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+.my-2 {
+    border-width: 10px;
+    color: white;
+}
+
+.banner-img {
+    margin-left: 30px;
+}
+
+.counter {
+    text-align: right;
+}
+
+.footer-content {
+    padding-left: 250px;
+    border-radius: 100%;
+}
+
+.main-content-img {
+    width: 90%;
+    height: 50%;
+}
+
+.main-content {
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
