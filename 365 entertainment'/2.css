@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.css-selector {
+    background: linear-gradient(144deg, #DAA520, #efe1a1, #e9aa5c);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 88% 0%
+    }
+    50% {
+        background-position: 13% 100%
+    }
+    100% {
+        background-position: 88% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 88% 0%
+    }
+    50% {
+        background-position: 13% 100%
+    }
+    100% {
+        background-position: 88% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 88% 0%
+    }
+    50% {
+        background-position: 13% 100%
+    }
+    100% {
+        background-position: 88% 0%
+    }
+}
+
+.navbar-brand {
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.action {
+    color: white;
+}
+
+.action hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: white
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    background-color: yellow;
+}
+
+.input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #ffca28;
+}
+
+.row {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.search-container {
+    position: relative;
+    width: 70%;
+    margin: -40px 0 0 260px;
+    /* Center it */
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+}
+
+.container .content {
+    position: absolute;
+    /* Position the background text */
+    bottom: 0;
+    height: 9vh;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 159px;
+    padding: 15px;
+    /* Some padding */
+    text-align: center;
+}
+
+footer p {
+    margin-left: 180px;
+    height: 30px;
+}
+
+.action {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: lighter;
+}
